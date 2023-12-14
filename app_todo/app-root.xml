@@ -1,0 +1,14 @@
+
+<TabView>
+    <TabViewItem title="Текущие" >
+        <Frame defaultPage="tasks" />
+    </TabViewItem>
+
+    <TabViewItem title="Выполненые" >
+        <Frame defaultPage="done" />
+    </TabViewItem>
+
+    <TabViewItem title="Новая запись" >
+        <Frame defaultPage="new-task" />
+    </TabViewItem>
+</TabView>

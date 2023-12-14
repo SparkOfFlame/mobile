@@ -1,0 +1,12 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+    <ActionBar title="Календарик 9 на 12" icon="" />
+
+    <StackLayout class="p-20" horizontalAlignment="center">
+        <StackLayout orientation="horizontal" horizontalAlignment="center">
+            <ListPicker  id="yr" />
+            <ListPicker  id="mnt" />
+        </StackLayout>
+        <GridLayout columns="40,40,40,40,40,40,40" rows="40,40,40,40,40,40" id="calend"></GridLayout>
+        <button text="К текущему месяцу" id="bck" class="bckbtn" visibility="collapsed"  > </button>
+    </StackLayout>
+</Page>

@@ -1,0 +1,35 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <StackLayout>
+        <TextField text="{{ primer }}"  id="answer" class="ans" editable="false" textAlignment="right" textWrap="false" />
+        <!-- row="2" col="0" colSpan="4" rowspan="2"-->
+        <GridLayout rows="*,*,*,*,*,*,*,*,*,*" columns="auto, auto, auto, auto" class="buttons">
+            
+
+            <Button class="calcBtn" text="С" tap="{{  deleteall  }}" row="5" col="0" />
+            <Button class="calcBtn" text="/" tap="{{  tapbutn  }}" row="5" col="1" />
+            <Button class="calcBtn" text="*" tap="{{  tapbutn  }}" row="5" col="2" />
+            <Button class="calcBtn" text="⌫" tap="{{  deletecharecter  }}" row="5" col="3" />
+
+            <Button class="calcBtn" text="7" tap="{{  tapbutn  }}" row="6" col="0" />
+            <Button class="calcBtn" text="8" tap="{{  tapbutn  }}" row="6" col="1" />
+            <Button class="calcBtn" text="9" tap="{{  tapbutn  }}" row="6" col="2" />
+            <Button class="calcBtn" text="-" tap="{{  tapbutn  }}" row="6" col="3" />
+
+            <Button class="calcBtn" text="4" tap="{{  tapbutn  }}" row="7" col="0" />
+            <Button class="calcBtn" text="5" tap="{{  tapbutn  }}" row="7" col="1" />
+            <Button class="calcBtn" text="6" tap="{{  tapbutn  }}" row="7" col="2" />
+            <Button class="calcBtn" text="+" tap="{{  tapbutn  }}" row="7" col="3" />
+
+            <Button class="calcBtn" text="1" tap="{{  tapbutn  }}" row="8" col="0" />
+            <Button class="calcBtn" text="2" tap="{{  tapbutn  }}" row="8" col="1" />
+            <Button class="calcBtn" text="3" tap="{{  tapbutn  }}" row="8" col="2" />
+            <StackLayout class="equal" row="8" col="3" rowSpan="2">
+                <Button class="calcBtn" text="=" tap="{{ calculate  }}" width="100%" height="100%"/>
+            </StackLayout>
+           
+            <Button class="calcBtn" text="{{ pow }}" tap="{{  inpow  }}" row="9" col="0" />
+            <Button class="calcBtn" text="0" tap="{{  tapbutn  }}" row="9" col="1" />
+            <Button class="calcBtn" text="." tap="{{  tapbutn  }}" row="9" col="2" />
+        </GridLayout>
+    </StackLayout>
+</Page>

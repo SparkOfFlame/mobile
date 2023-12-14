@@ -1,0 +1,18 @@
+.navpanel{
+    visibility: collapse;
+}
+.pnl{
+    padding-top:10;
+    font-size: 20;
+}
+.txt{
+    height: 100%;
+}
+.del{
+    font-size: 20;
+    color: #ff3939;
+}
+.comp{
+    font-size: 20;
+    color: #24d85a;
+}

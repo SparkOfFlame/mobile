@@ -1,0 +1,13 @@
+<TabView androidTabsPosition="bottom">
+    <TabViewItem title="Cats" >
+        <Frame defaultPage="cat" />
+    </TabViewItem>
+
+    <TabViewItem title="Имя" >
+        <Frame defaultPage="name" />
+    </TabViewItem>
+
+    <TabViewItem title="Dog Pic" >
+        <Frame defaultPage="dog-img" />
+    </TabViewItem>
+</TabView>

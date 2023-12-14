@@ -1,0 +1,32 @@
+﻿@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+Button.-primary {
+  font-size: 18;
+}
+.calcBtn{
+  font-size: 35;
+  color: white;
+  background-color: #9f78f3;
+  margin: 0;
+  width: 30%;
+  height: 30%;
+}
+.numpad{
+  background-color: black;
+}
+.convertor{
+  font-size: 30;
+  border-radius: 100;
+  background-color: #c1c1c15b;
+}
+.convfield{
+  margin-left:40;
+}
+.mainselect{
+  border-radius: 80;
+  background-color: #c1c1c15b;
+  font-size: 30;
+  margin: 5;
+
+}

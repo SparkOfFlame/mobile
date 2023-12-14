@@ -1,0 +1,28 @@
+﻿@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+Button.-primary {
+  font-size: 18;
+}
+ActionBar{
+  visibility: collapse;
+}
+.Warn{
+  margin-top: 300;
+  font-size: 30;
+}
+.pnl{
+  padding-top:10;
+  font-size: 20;
+}
+.txt{
+  height: 100%;
+}
+.del{
+  font-size: 20;
+  color: #ff3939;
+}
+.comp{
+  font-size: 20;
+  color: #24d85a;
+}

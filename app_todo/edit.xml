@@ -1,0 +1,12 @@
+<Page navigatingTo="onNavigatingTo" xmlns="http://schemas.nativescript.org/tns.xsd" >
+    <ActionBar>
+        <NavigationButton tap="onBackButtonTap" android.systemIcon="ic_menu_back" />
+        <label text="Редактирование"></label>
+    </ActionBar>
+
+    <GridLayout rows="*,60,60" columns="*">
+        <TextView  class="m-10 h3 txt" col="0" row="0" text="{{ description }}" textWrap="wrap" ditable="true" verticalAlignment="top" id="inp"/>
+        <Label text="Отметить как выполненное" row="1" textAlignment="center" class="comp"  tap="completetask"></Label>
+        <Label text="Удалить" row="2" textAlignment="center" class="del"  tap="deletetask"></Label>
+    </GridLayout>
+</Page>

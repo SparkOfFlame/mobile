@@ -1,0 +1,13 @@
+<Page
+    navigatingTo="onNavigatingTo"  
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar>
+        <Label text="Случайная картинка собачки"></Label>
+    </ActionBar>
+    <StackLayout>
+      <Image id="img"/>
+      <Button text="Получить новую картинку" id="refresh" col="0"/>
+    </StackLayout>
+    
+</Page>

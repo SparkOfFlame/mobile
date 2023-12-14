@@ -1,0 +1,10 @@
+<Page navigatingTo="onNavigatingTo" xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar>
+        <Label text="Случайный факт о кошках"/>
+    </ActionBar>
+
+    <Label text=" " id="cat" class="cat p-20" whiteSpace = "normal" textAlign="center" lineBreak = "word"></Label>
+
+    
+</Page>

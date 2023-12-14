@@ -1,0 +1,14 @@
+
+
+
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar title="Конвертор" icon="" />
+    <GridLayout rows="*,*,*,*,*,*,*,*" columns="*,*,*,*,*,*,*,*" class="buttons">
+
+        <Label text="Конвертация длинн" row="1" col="1" rowSpan="2" colSpan="3" textWrap="true" textAlignment="center" tap="{{ tolng }}" class="mainselect"/>
+        <Label text="Конвертация площадей" row="1" col="4" rowSpan="2" colSpan="3" textWrap="true" textAlignment="center" tap="{{ sq }}" class="mainselect"/>
+        <Label text="Конвертация объёма данных" row="5" col="1" rowSpan="2" colSpan="6" textWrap="true" textAlignment="center" tap="{{ mem }}" class="mainselect"/>
+        <Label text="Конвертация денег" row="3" col="1" rowSpan="2" colSpan="3" textWrap="true" textAlignment="center" tap="{{ mon }}" class="mainselect"/>
+        <Label text="Конвертация объёма" row="3" col="4" rowSpan="2" colSpan="3" textWrap="true" textAlignment="center" tap="{{ vl }}" class="mainselect"/>
+    </GridLayout>
+</Page>

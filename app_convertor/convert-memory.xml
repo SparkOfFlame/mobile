@@ -1,0 +1,42 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar title="Конвертор" icon="" />
+    <GridLayout rows="*,*" columns="*" class="buttons">
+
+
+        
+        <GridLayout rows="*,*,*,*,*,*,*" columns="*" row="0" col="0">
+
+            <StackLayout orientation="horizontal" row="1" col="0" width="95%" rowSpan="2" class="convfield">
+                <ListPicker items="{{ items }}" selectedIndex="{{ itIn }}" width="25%" id="iIn" selectedIndexChange="{{ chagemetric }}"/>
+                <TextField text="{{ValueIn}}" textAlignment="center" width="60%" heigth="50" editable="false"  class="convertor" id="cIn" />
+            </StackLayout>
+            
+            <StackLayout orientation="horizontal" row="4" col="0" width="95%" rowSpan="2" class="convfield">
+                <ListPicker items="{{ items }}" selectedIndex="{{ itOut }}" width="25%" id="iOut" selectedIndexChange="{{ chagemetric }}"/>
+                <TextField text="{{ValueOut}}" textAlignment="center" width="60%"  editable="false"  class="convertor" id="cOut"/>
+            </StackLayout>
+
+        </GridLayout>
+        
+        
+        <GridLayout rows="*,*,*,*" columns="*,*,*" row="1" col="0" class="numpad">
+            
+            <Button class="calcBtn" text="7" tap="{{  tapbutn  }}" row="0" col="0" />
+            <Button class="calcBtn" text="8" tap="{{  tapbutn  }}" row="0" col="1" />
+            <Button class="calcBtn" text="9" tap="{{  tapbutn  }}" row="0" col="2" />
+            
+            <Button class="calcBtn" text="4" tap="{{  tapbutn  }}" row="1" col="0" />
+            <Button class="calcBtn" text="5" tap="{{  tapbutn  }}" row="1" col="1" />
+            <Button class="calcBtn" text="6" tap="{{  tapbutn  }}" row="1" col="2" />
+
+            <Button class="calcBtn" text="1" tap="{{  tapbutn  }}" row="2" col="0" />
+            <Button class="calcBtn" text="2" tap="{{  tapbutn  }}" row="2" col="1" />
+            <Button class="calcBtn" text="3" tap="{{  tapbutn  }}" row="2" col="2" />
+           
+            <Button class="calcBtn" text="." tap="{{  makepoint  }}" row="3" col="0" />
+            <Button class="calcBtn" text="0" tap="{{  tapbutn  }}" row="3" col="1" />
+            <Button class="calcBtn" text="⌫" tap="{{  delchar  }}" row="3" col="2" />
+
+        </GridLayout>
+    </GridLayout>
+</Page>

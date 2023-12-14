@@ -1,0 +1,26 @@
+﻿@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+Button.-primary {
+  font-size: 18;
+}
+.day{
+
+  text-align: center;
+  font-size: 15;
+}
+.day.notactive{
+  color: rgba(75, 75, 75, 0.5);
+}
+.day.holyday{
+  color: rgb(221, 64, 64);
+}
+.day.notactive.holyday{
+  color: rgb(221, 64, 64,0.5);
+}
+.day.today{
+  color: rgb(75, 165, 245);
+}
+.bckbtn{
+  font-size: 20;
+}

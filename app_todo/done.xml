@@ -1,0 +1,17 @@
+<Page navigatingTo="onNavigatingTo" xmlns="http://schemas.nativescript.org/tns.xsd" actionBarHidden="true">
+  
+
+    <StackLayout>
+        <Label text="Нет выполненных задач" verticalAlignment="center" textWrap="true" textAlignment="center" visibility="{{ items.length === 0 ? 'visible' : 'collapsed' }}" class="Warn"/>
+        <ListView items="{{ items }}" visibility="{{ items.length > 0 ? 'visible' : 'collapsed' }}">
+            <ListView.itemTemplate>
+                <StackLayout orientation="horizontal">
+                    <GridLayout columns="*" padding="10">
+                        <Label text="{{ description }}" tap="Edit" verticalAlignment="center" col="0"/>
+                    </GridLayout>
+                </StackLayout>
+            </ListView.itemTemplate>
+        </ListView>
+        
+    </StackLayout>
+    </Page>

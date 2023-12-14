@@ -1,0 +1,33 @@
+﻿@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+.calcBtn{
+  font-size: 35;
+  color: white;
+  background-color: #9f78f3;
+  margin: 0;
+  width: 20%;
+  height: 20%;
+}
+.operator{
+  color:#ff4800;
+}
+page{
+  background-color: black;
+}
+.ans{
+  color:white;
+  font-size: 50;
+  margin-top: 100;
+  overflow:visible;
+
+  white-space: nowrap;
+  overflow: visible;
+}
+.buttons{
+  margin: 0;
+  padding: 0;
+}
+.equal{
+  padding: 0;
+}
